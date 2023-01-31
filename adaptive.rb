@@ -16,7 +16,7 @@ class Adaptive < Formula
       end
     end
     if Hardware::CPU.arm?
-      url "https://hoopartifacts.s3.amazonaws.com/release/1.1.9/hoop_1.1.9_Darwin_arm64.tar.gz"
+      url "https://cli.adaptive.live/release/adaptive-macos-arm64-0.2.32.tar.gz"
       sha256 "8d3e64b9a46ec31505d3cebd45e255a7bb18e6b7cd8c7a8962847696ea119932"
 
       def install
