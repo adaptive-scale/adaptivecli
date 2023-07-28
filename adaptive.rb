@@ -9,7 +9,7 @@ class Adaptive < Formula
   on_macos do
     if Hardware::CPU.intel?
       url "https://cli.adaptive.live/v0.3.4/adaptive-macos-amd64-v0.3.4.tar.gz"
-      sha256 "780d9aa76bffd83bd4e81bb275bd1e50a806bb01ff05585f32b01f5fe598ea8d"
+      sha256 "686d25148130c66c7c3fcc153b0681b78f4e23f216c910f043e0af4a6d5595f1"
 
       def install
         bin.install "adaptive"
@@ -17,7 +17,7 @@ class Adaptive < Formula
     end
     if Hardware::CPU.arm?
       url "https://cli.adaptive.live/v0.3.4/adaptive-macos-arm64-v0.3.4.tar.gz"
-      sha256 "3c811a04ec4d183c797de964495a8853e95bd799eaeca6dfa10190c30608d6e7"
+      sha256 "d1fe9977cb74012a3ffacce53eafa819cfc90ceacbd2cb25f07d19895b9364b2"
       def install
         bin.install "adaptive"
       end
@@ -27,7 +27,7 @@ class Adaptive < Formula
   on_linux do
     if Hardware::CPU.intel?
       url "https://cli.adaptive.live/v0.3.4/adaptive-linux-amd64-v0.3.4.tar.gz"
-      sha256 "9f84eb078b83f8383b0b404cadb33dbff305847c00b6ef5566f7dde6d59ff1d6"
+      sha256 "fd4e6c6ceb1c6719cb74898247ec261ec6852ff8335adf2bfd2b95254c5a2d32"
 
 
       def install
@@ -36,7 +36,7 @@ class Adaptive < Formula
     end
     if Hardware::CPU.arm? && Hardware::CPU.is_64_bit?
       url "https://cli.adaptive.live/release/adaptive-linux-arm64-$version.tar.gz"
-      sha256 "e7b903bee669dff91d5f29039634ddbef9930990fd41403221123e940ad0001f"
+      sha256 "9522fb08af2b2ce10fec9ac216ee80da80a62b68d8f3cb4c433f54b7fb2771df"
 
       def install
         bin.install "adaptive"
