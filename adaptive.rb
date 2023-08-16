@@ -9,7 +9,7 @@ class Adaptive < Formula
   on_macos do
     if Hardware::CPU.intel?
       url "https://cli.adaptive.live/v0.3.8/adaptive-macos-amd64-v0.3.8.tar.gz"
-      sha256 "86ed696a6ab2a950ec6811b9253b15f4af2a6973fc6d28caf645dcfed0338fe3"
+      sha256 "4bdc7c51f66bbc2fb8448eca21235127ecc6da41f1e1fc09626170749f9fa0ce"
 
       def install
         bin.install "adaptive"
