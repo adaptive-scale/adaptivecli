@@ -17,7 +17,7 @@ class Adaptive < Formula
     end
     if Hardware::CPU.arm?
       url "https://cli.adaptive.live/v0.3.8/adaptive-macos-arm64-v0.3.8.tar.gz"
-      sha256 "7e8450cb11a4079fda2cc3a432fac3b8c499412c145162825a1c957327bd7c9e"
+      sha256 "847c0fe77b30ef2331de4e8f7a9e568f77ee4a43b8e8f1246cbd22ce6d154157"
 
       def install
         bin.install "adaptive"
