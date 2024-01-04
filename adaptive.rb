@@ -4,7 +4,7 @@
 class Adaptive < Formula
   desc "Adaptive streamlines your infrastructure access and authorization"
   homepage "https://github.com/adaptive-scale/adaptivecli"
-  version "v0.3.14"
+  version "0.3.14"
 
   on_macos do
     if Hardware::CPU.intel?
